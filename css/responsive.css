@@ -1,0 +1,158 @@
+@media (max-width: 1024px) {
+    .hero-section {
+        height: 650px
+    }
+
+    .hero-content h1 {
+        font-size: 32px;
+        line-height: 42px
+    }
+
+    .section-heading h2 {
+        font-size: 32px;
+        line-height: 42px
+    }
+}
+
+@media (max-width: 992px) {
+    .sm-padding {
+        padding: 15px
+    }
+
+    .menu-btn, .menu-wrap ul.nav {
+        display: none
+    }
+
+    .slicknav_menu {
+        display: block
+    }
+
+    /*.slicknav_nav li:last-child {*/
+        /*display: none*/
+    /*}*/
+
+    .hero-content h1 {
+        font-size: 32px;
+        line-height: 42px
+    }
+
+    .feature-section {
+        padding-top: 0
+    }
+    .f-bg:before {
+    background: url(../img/9.png) 0 0 no-repeat;
+    content: "";
+    display: block;
+    background-size: 128% 55%;
+    height: 117%;
+    left: 156px;
+    pointer-events: none;
+    position: absolute;
+    top: 4px;
+    width: 100%;
+}
+}
+
+@media all and (min-width: 480px) and (max-width: 768px) {
+}
+
+@media all and (max-width: 767px) {
+    body, p {
+        font-size: 12px;
+        line-height: 22px
+    }
+
+    h1 {
+        font-size: 30px !important
+    }
+
+    h2 {
+        font-size: 20px
+    }
+
+    h3 {
+        font-size: 16px
+    }
+
+    p br {
+        display: none
+    }
+
+    .padding {
+        padding: 60px 0
+    }
+
+    .xs-padding {
+        padding: 15px
+    }
+
+    .hero-section {
+        height: auto;
+        padding: 100px 0;
+        background-position: top center
+    }
+
+    .hero-content {
+        text-align: center
+    }
+
+    .feature-section {
+        padding-top: 0
+    }
+
+    .section-heading h2 {
+        font-size: 24px;
+        line-height: 36px
+    }
+}
+
+@media all and (max-width: 520px) {
+    .subscribe-form {
+        width: 100%
+    }
+
+    .card-header a {
+        font-size: 14px;
+        line-height: 18px
+    }
+
+    #accordion {
+        padding-right: 0
+    }
+
+    .subscribe-form input {
+        width: 100%
+    }
+
+    .submit-btn {
+        width: 100%
+    }
+
+    .default-btn.order {
+        font-size: 8px
+    }
+
+    .section-heading h2 {
+        font-size: 16px;
+        line-height: 26px;
+        letter-spacing: -.5px
+    }
+
+    .section-heading h2 br {
+        display: none
+    }
+
+    .icons-wrap span.icon-2 {
+        left: 5%;
+        top: 40px
+    }
+
+    .icons-wrap span {
+        left: 110px;
+        top: 40px
+    }
+
+    .icons-wrap span.icon-3 {
+        top: 55px
+    }
+}
